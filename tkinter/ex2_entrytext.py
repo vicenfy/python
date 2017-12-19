@@ -5,7 +5,7 @@ window.title('my window')
 window.geometry('200x200') #设置大小
 
 #entry
-e = tk.Entry(window, show='*')
+e = tk.Entry(window, show=None)
 e.pack()
 
 def insert_point():
