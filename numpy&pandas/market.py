@@ -11,7 +11,6 @@ def markrt(a, b):
             c[i] += a[j]*b[j][i]
 
     if round(c[0],4) != round(a[0],4):
-        count += 1
         markrt(c, b)
 
     else:
