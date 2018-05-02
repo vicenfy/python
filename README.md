@@ -1,2 +1,2 @@
 # python
-python机器学习
+python mechine learning
